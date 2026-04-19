@@ -212,48 +212,6 @@
     .method-step p { color:rgba(255,255,255,0.55); font-size:0.85rem; }
     .method-connector { display:flex; justify-content:center; align-items:center; }
 
-    /* ─── 3 PILLARS ─── */
-    .pillars-section { background:var(--ivory); }
-    .pillars-header { text-align:center; }
-    .pillars-header h2 { color:var(--navy); }
-    .pillars-header p { color:var(--text-muted); max-width:560px; margin:0 auto; font-size:0.92rem; }
-    .pillars-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:24px; margin-top:52px; }
-    .pillar-card {
-      background:#fff; border-radius:var(--r);
-      box-shadow:0 4px 24px rgba(11,16,32,0.06); overflow:hidden;
-      transition:transform var(--tr), box-shadow var(--tr);
-      position:relative;
-    }
-    .pillar-card:hover { transform:translateY(-5px); box-shadow:0 12px 40px rgba(11,16,32,0.12); }
-    .pillar-top {
-      background:linear-gradient(135deg,var(--navy),#1c2640);
-      padding:32px 24px 24px; position:relative; overflow:hidden;
-    }
-    .pillar-top::after {
-      content:''; position:absolute; bottom:-20px; right:-20px;
-      width:80px; height:80px; border-radius:50%;
-      background:rgba(207,169,74,0.08); border:1px solid rgba(207,169,74,0.2);
-    }
-    .pillar-num {
-      font-family:'Playfair Display',serif; font-size:3.2rem; font-weight:700;
-      color:rgba(207,169,74,0.15); position:absolute; top:12px; right:20px; line-height:1;
-    }
-    .pillar-ico { font-size:1.8rem; color:var(--gold); margin-bottom:12px; display:block; }
-    .pillar-top h3 { color:#fff; font-size:1.1rem; margin-bottom:4px; }
-    .pillar-top .pillar-sub { color:var(--gold); font-size:0.75rem; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; }
-    .pillar-body { padding:24px; }
-    .pillar-body p { font-size:0.875rem; color:var(--text-muted); margin-bottom:16px; line-height:1.72; }
-    .pillar-tags { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:18px; }
-    .pillar-tag {
-      font-size:0.7rem; font-weight:600; letter-spacing:0.08em;
-      padding:4px 12px; border-radius:50px;
-      background:var(--gold-pale); border:1px solid rgba(207,169,74,0.25);
-      color:var(--gold);
-    }
-      display:flex; align-items:center; gap:8px; padding:10px 14px;
-      background:#f4f1eb; border-radius:10px; font-size:0.78rem;
-    }
-
     /* ─── OFFRES ─── */
     .offres-section { background:#fff; }
     .offres-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:20px; margin-top:48px; }
@@ -666,11 +624,11 @@
 
       <div class="problem-img-stack">
         <div class="problem-img tall">
-          <img src="image_12.jpg" alt="Atelier collectif en entreprise"/>
+          <img src="image_10.jpg" alt="Atelier cognitif en entreprise"/>
           <div class="img-caption">Atelier cognitif en entreprise</div>
         </div>
         <div class="problem-img short">
-          <img src="image_12.jpg" alt="Accompagnement dirigeant"/>
+          <img src="image_2.jpeg" alt="Suivi dirigeant individualisé"/>
           <div class="img-caption">Suivi dirigeant individualisé</div>
         </div>
       </div>
@@ -722,78 +680,7 @@
 <!-- ════════════════════════════════════
      3 PILLARS — Positionnement unique
 ════════════════════════════════════ -->
-<section class="pillars-section" id="pillars">
-  <div class="container">
-    <div class="pillars-header">
-      <span class="section-label">Mon positionnement unique</span>
-      <h2 class="section-title dark" style="margin-bottom:10px;">3 piliers que personne<br/>en Guadeloupe ne peut vous offrir</h2>
-      <div class="divider center"></div>
-      <p>Ma méthode intègre trois dimensions ancrées dans notre réalité caribéenne — au service de la performance collective et du bien-être au travail.</p>
-    </div>
 
-    <div class="pillars-grid">
-
-      <!-- Axe 1 -->
-      <div class="pillar-card">
-        <div class="pillar-top">
-          
-          <span class="pillar-ico"><i class="fas fa-heart-pulse"></i></span>
-          <h3>Corps et Esprit</h3>
-          <div class="pillar-sub">Sport · Préparation mentale · Nutrition</div>
-        </div>
-        <div class="pillar-body">
-          <p>Le dirigeant caribéen fonctionne en mode survie. Le protocole <strong>PARI</strong> (Préparation, Action, Récupération, Intégration) lui redonne clarté et endurance — en s'appuyant sur les mêmes méthodes que les athlètes de haut niveau.</p>
-          <div class="pillar-tags">
-            <span class="pillar-tag">Protocole PARI</span>
-            <span class="pillar-tag">Préparation mentale</span>
-            <span class="pillar-tag">Endurance dirigeant</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Axe 2 -->
-      <div class="pillar-card">
-        <div class="pillar-top">
-          
-          <span class="pillar-ico"><i class="fas fa-drum"></i></span>
-          <h3>Rythme et Résonance</h3>
-          <div class="pillar-sub">Gwo Ka · Musique · Neurorégulation</div>
-        </div>
-        <div class="pillar-body">
-          <p>Les tambours de nos ancêtres sont la plus ancienne technologie de régulation neuronale. Le <em>brainwave entrainment</em> prouve que le cerveau synchronise ses ondes sur les rythmes extérieurs. Les masterclass sont co-animées avec des maîtres Ka.</p>
-          <div class="pillar-tags">
-            <span class="pillar-tag">Gwo Ka</span>
-            <span class="pillar-tag">Brainwave entrainment</span>
-            <span class="pillar-tag">Cohésion d'équipe</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Axe 3 -->
-      <div class="pillar-card">
-        <div class="pillar-top">
-          
-          <span class="pillar-ico"><i class="fas fa-seedling"></i></span>
-          <h3>Racines et Territoires</h3>
-          <div class="pillar-sub">Koudmen · Ubuntu · Identité caribéenne</div>
-        </div>
-        <div class="pillar-body">
-          <p>Les modèles métropolitains ne collent pas à nos réalités. Le <em>Koudmen</em> et l'<em>Ubuntu</em> ne sont pas des concepts philosophiques — c'est de l'optimisation biologique validée par les neurones miroirs et l'ocytocine.</p>
-          <div class="pillar-tags">
-            <span class="pillar-tag">Koudmen</span>
-            <span class="pillar-tag">Ubuntu</span>
-            <span class="pillar-tag">Neurones miroirs</span>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <p style="text-align:center; margin-top:28px; font-size:0.82rem; color:var(--text-muted);">
-      <i class="fas fa-calendar-days" style="color:var(--gold);"></i>&nbsp;
-    </p>
-  </div>
-</section>
 
 <!-- ════════════════════════════════════
      OFFRES / TARIFS
@@ -1136,7 +1023,6 @@
      FOOTER
 ════════════════════════════════════ -->
 <footer class="lp-footer">
-  <div style="text-align:center; margin-bottom:24px;"><img src="image_6.png" alt="Ivory Consulting" style="width:120px; opacity:0.8; filter:drop-shadow(0 0 8px rgba(207,169,74,0.3));"/></div>
   <div class="footer-links">
     <a href="index.html">Site principal</a>
     <a href="index.html">Mentions légales</a>
